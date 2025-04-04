@@ -1,0 +1,13 @@
+packages:
+  # Core packages
+  - 'core/*'
+  # Development sandboxes
+  - 'sandboxes/*'
+  # Development tools
+  - 'tools/*'
+
+  # Exclude test directories and other non-package directories
+  - '!**/test/**'
+  - '!**/tests/**'
+  - '!**/dist/**'
+  - '!**/build/**' 
